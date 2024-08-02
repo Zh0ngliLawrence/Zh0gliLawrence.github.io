@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente de Google Fonts */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('sanrio-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 300px; /* Tamaño razonable para la imagen */
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    max-width: 300px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.editable-text {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
